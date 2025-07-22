@@ -14,6 +14,14 @@ public class Test {
 	{
 		return a-b;
 	}
+
+	pubic void mul()
+	{
+		int a = 23;
+		int b = 10;
+		int c = a*b;
+		System.out.println(c);
+	}		
 	
 	public static void main(String[] args) {
 		Test t = new Test();
