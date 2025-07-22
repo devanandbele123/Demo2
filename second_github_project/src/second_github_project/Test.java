@@ -15,7 +15,7 @@ public class Test {
 		return a-b;
 	}
 
-	pubic void mul()
+	public void mul()
 	{
 		int a = 23;
 		int b = 10;
@@ -29,5 +29,7 @@ public class Test {
 		
 		int res = t.sub(20, 10);
 		System.out.println(res);
+		
+		t.mul();
 	}
 }
